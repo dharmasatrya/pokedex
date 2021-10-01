@@ -1,0 +1,100 @@
+/* cards */
+
+.mainTitle{
+  text-align: center;
+}
+
+.pokemonContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.pokemonCard {
+  /* border: 1px solid #cccccc; */
+  border-radius: 15px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(211, 211, 211);
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), white);
+}
+
+.pokemonImage{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.button:hover{
+  background-color: gray
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox{
+  width: 180px;
+  text-align: center;
+  height: 25px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(211, 211, 211);
+  margin: 10px;
+}
+
+.optionsDiv{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px
+}
+
+.addFavBtn{
+  justify-content: left;
+}
+
+.detailContainer{
+  /* border: 1px solid red; */
+  width: 1100px;
+  background-image: linear-gradient(to top, rgba(0,0,0,0), rgb(163, 163, 163));
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.detailCard{
+  /* border: 1px solid blue; */
+  display: flex;
+  margin: 10px
+}
+
+.detailsDiv{
+  /* border: 1px solid black; */
+  margin: 10px;
+  width: 100%;
+}
